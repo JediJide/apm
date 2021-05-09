@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from "@angular/core";
 import { Subscription } from "rxjs";
-import { IProduct } from "./product";
+import { IProduct } from "./product"; //the interface to set field types
 import { ProductService } from "./product-service";
 
 @Component({

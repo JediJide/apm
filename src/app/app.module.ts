@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterModule} from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
@@ -9,7 +10,6 @@ import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
 import { StarComponent } from './shared/star.component';
 import { ProductsDetailComponent } from './product/products-detail.component';
 import { WelcomeComponent } from './home/welcome.component';
-import { RouterModule} from '@angular/router';
 import { ProductDetailGuard } from './products/product-detail.guard';
 
 
